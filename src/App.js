@@ -1,6 +1,5 @@
 import React from 'react'
 import { ThemeProvider } from '@mui/material/styles';
-import { Paper } from '@mui/material'
 import CssBaseline from '@mui/material/CssBaseline';
 import Navbar from './components/Navbar.js'
 import Main from './components/Main.js'
