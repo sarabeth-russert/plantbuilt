@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { ThemeProvider } from '@mui/material/styles';
+import { Paper } from '@mui/material'
+import CssBaseline from '@mui/material/CssBaseline';
+import Navbar from './components/Navbar.js'
+import Main from './components/Main.js'
+// import theme from "./theme.js"
 
-function App() {
+import { createTheme } from '@mui/material/styles';
+// import { green, purple } from '@mui/material/colors';
+
+const theme = createTheme({
+  palette: {
+    mode: 'dark',
+  },
+  components: {
+    MuiPaper : {
+      styleOverrides: {
+        rounded: { borderRadius: "10px"}
+      }
+    }
+  }
+});
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Navbar />
+      <Main />
+    </ThemeProvider>
+  )
 }
 
-export default App;
+export default App
