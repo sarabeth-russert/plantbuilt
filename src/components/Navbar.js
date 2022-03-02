@@ -1,31 +1,36 @@
-import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
+import * as React from "react";
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import { makeStyles } from "@mui/styles";
+import NavMenu from "./NavMenu";
+
+const useStyles = makeStyles({
+  logo: {
+    height: "75px",
+  },
+});
 
 export default function ButtonAppBar() {
+  const classes = useStyles();
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
-          <IconButton
-            onClick={() => console.log("hello")}
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Plantbuilt
-          </Typography>
-          <Button color="inherit">Login</Button>
+        <Toolbar
+          sx={{
+            display: "flex",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <NavMenu title={"Athletes"} menuItems={[]} />
+          <NavMenu title={"2017 Results"} menuItems={[]} />
+          <img
+            src={"plantbuilt-logo-dark.png"}
+            alt="plantbuilt"
+            className={classes.logo}
+          />
+          <NavMenu title={"About"} menuItems={[]} />
+          <NavMenu title={"Contact"} menuItems={[]} />
         </Toolbar>
       </AppBar>
     </Box>

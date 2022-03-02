@@ -1,23 +1,27 @@
 import React from "react";
-import { Paper, Grid, Card, CardMedia, CardContent, Typography, CardActions, Button } from "@mui/material";
+import {
+  Grid,
+  Card,
+  CardMedia,
+  CardContent,
+  Typography,
+  CardActions,
+  Button,
+} from "@mui/material";
+import Hero from "./Hero";
 
 const Main = () => {
   return (
-    <Grid container spacing={2} sx={{ display: "flex", justifyContent: "center", marginTop: "20px"}}>
-      <Grid item xs={10} sx={{display: "flex", justifyContent: "center"}}>
-        <Paper elevation={2} sx={{ padding: "15px"}}>
-          <Card>
-            <CardMedia
-              component="img"
-              height="100%"
-              image="PlantBuilt-Dark-Logo-.png"
-              alt="plantbuilt"
-            />
-          </Card>
-        </Paper>
+    <Grid
+      container
+      spacing={2}
+      sx={{ display: "flex", justifyContent: "center", marginTop: "20px" }}
+    >
+      <Grid item xs={10} sx={{ display: "flex", justifyContent: "center" }}>
+        <Hero />
       </Grid>
       <Grid item xs={5}>
-        <Card sx={{ display: "flex", height:"210px"}} >
+        <Card sx={{ display: "flex", height: "210px" }}>
           <CardMedia
             component="img"
             alt="timeline graphic"
@@ -26,10 +30,15 @@ const Main = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              About Plantbuilt 
+              About Plantbuilt
             </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{marginBottom: "30px"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ marginBottom: "30px" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Typography>
             <CardActions>
               <Button size="small">Share</Button>
@@ -39,7 +48,7 @@ const Main = () => {
         </Card>
       </Grid>
       <Grid item xs={5}>
-        <Card sx={{ display: "flex", height: "210px"}} >
+        <Card sx={{ display: "flex", height: "210px" }}>
           <CardMedia
             component="img"
             alt="timeline graphic"
@@ -48,10 +57,15 @@ const Main = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Latest News 
+              Latest News
             </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{marginBottom: "30px"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ marginBottom: "30px" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Typography>
             <CardActions>
               <Button size="small">Share</Button>
@@ -61,7 +75,7 @@ const Main = () => {
         </Card>
       </Grid>
       <Grid item xs={5}>
-        <Card sx={{ display: "flex", height: "210px"}} >
+        <Card sx={{ display: "flex", height: "210px" }}>
           <CardMedia
             component="img"
             alt="timeline graphic"
@@ -70,10 +84,15 @@ const Main = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Community Outreach 
+              Community Outreach
             </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{marginBottom: "30px"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ marginBottom: "30px" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Typography>
             <CardActions>
               <Button size="small">Share</Button>
@@ -83,7 +102,7 @@ const Main = () => {
         </Card>
       </Grid>
       <Grid item xs={5}>
-        <Card sx={{ display: "flex"}} >
+        <Card sx={{ display: "flex" }}>
           <CardMedia
             component="img"
             alt="timeline graphic"
@@ -92,10 +111,15 @@ const Main = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Volunteer 
+              Volunteer
             </Typography>
-            <Typography variant="body2" color="text.secondary" sx={{marginBottom: "30px"}}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ marginBottom: "30px" }}
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Typography>
             <CardActions>
               <Button size="small">Share</Button>
