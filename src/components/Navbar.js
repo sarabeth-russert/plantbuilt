@@ -3,11 +3,15 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import { makeStyles } from "@mui/styles";
-import NavMenu from "./NavMenu";
+// import NavMenu from "./NavMenu";
+import { MenuItem, Typography } from "@mui/material";
 
 const useStyles = makeStyles({
   logo: {
-    height: "75px",
+    width: "250px",
+  },
+  links: {
+    width: "120px",
   },
 });
 
@@ -22,15 +26,23 @@ export default function ButtonAppBar() {
             justifyContent: "space-evenly",
           }}
         >
-          <NavMenu title={"Athletes"} menuItems={[]} />
-          <NavMenu title={"2017 Results"} menuItems={[]} />
+          <MenuItem className={classes.links}>
+            <Typography>Athletes</Typography>
+          </MenuItem>
+          <MenuItem className={classes.links}>
+            <Typography>2017 Results</Typography>
+          </MenuItem>
           <img
             src={"plantbuilt-logo-dark.png"}
             alt="plantbuilt"
             className={classes.logo}
           />
-          <NavMenu title={"About"} menuItems={[]} />
-          <NavMenu title={"Contact"} menuItems={[]} />
+          <MenuItem className={classes.links}>
+            <Typography>About Us</Typography>
+          </MenuItem>
+          <MenuItem className={classes.links}>
+            <Typography>Contact</Typography>
+          </MenuItem>
         </Toolbar>
       </AppBar>
     </Box>

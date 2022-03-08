@@ -1,0 +1,135 @@
+[
+  {
+    "img": "/profile-photos/plantbuilt-carolyn-johnson.png",
+    "name": "Carolyn Johnson",
+    "active": true,
+    "sport": "cf",
+    "bio": {"name": "Carolyn Napier",
+
+    "Division": "CF",
+    
+    "Age": 34,
+    
+    "Height": "5′",
+    
+    "Weight": "120 lbs",
+    
+    "City": "Edmond, OK",
+    
+    "yearsVegan": 13,
+    
+    "why": "I became a vegetarian when I was 18 just to see if I could do it. I soon realized how much healthier I was. I began to watch documentaries and read more about what actually happens to the animals. I wanted to live a compassionate lifestyle. When I was 21, I made the decision to become fully vegan.",
+    
+    "history":
+    "Battle over Redlands 2012 scaled division, 3rd place Fittest in OK 2013 Rx'd division, 5th place Red dirt classic- team division, 3rd place Battle over Redlands- Rx’d division, 7th place Fittest in OK 2014- team division, 6th place Anarchy in the OK- Rx’d, 3rd place KO in the OK- Rx’d team, 1st place Fittest in OK 2015- Rx’d team, 1st place Fittest Games- Rx’d team- 4th place I will be competing in the Central Regional in Minneapolis, MN.",
+    
+    "purpose": "I am competitive by nature. I love training and competing to see how hard I can push myself.",
+    
+    "advantages":
+    "I recover a lot faster.",
+    
+    "supplements": "Veggie Elite protein and BCAAs",
+    
+    "diet": "it doesn’t change much from what I typically eat day to day.",
+    
+    "favFood": "sweet potatoes",
+    
+    "training": "I typically train 3 days on, 1 day off. I will usually do my gym’s workout for the day and then do extra strength and accessory work plus another workout that focuses on my weaknesses.",
+    
+    "favExercises": "pull ups and overhead squats",
+    
+    "strongestSkill": "handstand push ups and pull ups",
+    
+    "hours": "15-20 hours",
+    
+    "proud": "My hard work over this last year to get better and making it with a team to go to regionals.",
+    
+    "social":
+    "https://www.facebook.com/carolyn.napier.9 https://instagram.com/olyn_86/"}
+  },
+  {
+    "img": "/profile-photos/plantbuilt-dani-taylor.png",
+    "name": "Dani Taylor",
+    "active": true,
+    "sport": "bodybuilding"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-daniel-albaugh.png",
+    "name": "Daniel Albaugh",
+    "active": true,
+    "sport": "powerlifting"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-giacomo-marchese.png",
+    "name": "Giacomo Marchese",
+    "active": true,
+    "sport": "bodybuilding"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-kelly-colobella.png",
+    "name": "Kelly Colobella",
+    "active": true,
+    "sport": "powerlifting"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-kody-kowalowski.png",
+    "name": "Kody Kowalowski",
+    "active": true,
+    "sport": "cf"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-lindsay-morgan.png",
+    "name": "Lindsay Morgan",
+    "active": true,
+    "sport": "cf"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-scott-green.png",
+    "name": "Scott Green",
+    "active": true,
+    "sport": "kettle-bell-sport"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-will-tucker.png",
+    "name": "Will Tucker",
+    "active": true,
+    "sport": "bodybuilding"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-tiffany-burich.png",
+    "name": "Tiffany Burich",
+    "active": true,
+    "sport": "bodybuilding"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-paul-salomone.png",
+    "name": "Paul Salomone",
+    "active": false,
+    "sport": "powerlifting"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-jillian-salomone.png",
+    "name": "Jillian Salomone",
+    "active": false,
+    "sport": "bodybuilding"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-amber-sperling.png",
+    "name": "Amber Sperling",
+    "active": false,
+    "sport": "cf"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-christian-garcia.png",
+    "name": "Christian Garcia",
+    "active": false,
+    "sport": "bodybuilding"
+  },
+  {
+    "img": "/profile-photos/plantbuilt-arvid-beck.png",
+    "name": "Arvid Beck",
+    "active": false,
+    "sport": "bodybuilding"
+  }
+
+]
