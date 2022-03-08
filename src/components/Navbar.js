@@ -4,6 +4,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import { makeStyles } from "@mui/styles";
 // import NavMenu from "./NavMenu";
+import { Link } from "react-router-dom";
 import { MenuItem, Typography } from "@mui/material";
 
 const useStyles = makeStyles({
@@ -13,6 +14,8 @@ const useStyles = makeStyles({
   links: {
     width: "120px",
   },
+  text: { color: "white" },
+  link: { textDecoration: "none" },
 });
 
 export default function ButtonAppBar() {
@@ -27,16 +30,20 @@ export default function ButtonAppBar() {
           }}
         >
           <MenuItem className={classes.links}>
-            <Typography>Athletes</Typography>
+            <Link className={classes.link} to="/profiles">
+              <Typography className={classes.text}>Athletes</Typography>
+            </Link>
           </MenuItem>
           <MenuItem className={classes.links}>
             <Typography>2017 Results</Typography>
           </MenuItem>
-          <img
-            src={"plantbuilt-logo-dark.png"}
-            alt="plantbuilt"
-            className={classes.logo}
-          />
+          <Link to="/">
+            <img
+              src={"plantbuilt-logo-dark.png"}
+              alt="plantbuilt"
+              className={classes.logo}
+            />
+          </Link>
           <MenuItem className={classes.links}>
             <Typography>About Us</Typography>
           </MenuItem>

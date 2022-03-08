@@ -9,7 +9,7 @@ const Hero = () => {
       {width > 1245 ? (
         <Box display="grid" gridTemplateColumns="repeat(12, 1fr)">
           <Box
-            gridColumn="3 / 12"
+            gridColumn="3 / 13"
             gridRow="1 / 6"
             sx={{ display: "flex", alignItems: "center" }}
           >
@@ -48,7 +48,7 @@ const Hero = () => {
       ) : (
         <Box display="grid" gridTemplateColumns="repeat(12, 1fr)">
           <Box
-            gridColumn="1 / 12"
+            gridColumn="1 / 13"
             gridRow="1"
             sx={{ display: "flex", alignItems: "center" }}
           >
@@ -61,7 +61,7 @@ const Hero = () => {
               />
             </Card>
           </Box>
-          <Box gridColumn="1 / 12" gridRow="2">
+          <Box gridColumn="1 / 13" gridRow="2">
             <Card sx={{ minWidth: 100 }}>
               <CardContent>
                 <Typography variant="h4" component="div">
