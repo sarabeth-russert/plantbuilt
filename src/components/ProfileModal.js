@@ -1,5 +1,6 @@
 import React from "react";
 import { Modal, Box, Typography } from "@mui/material";
+import { useHistory } from "react-router-dom";
 
 const style = {
   position: "absolute",
@@ -14,10 +15,17 @@ const style = {
 };
 
 const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
+  const history = useHistory();
+
+  const handleCloseModal = () => {
+    let hash = `/profiles`;
+    if (hash !== history.location.pathname) history.push(hash);
+    setShowModal(false);
+  };
   return (
     <Modal
       open={showModal}
-      onClose={() => setShowModal(false)}
+      onClose={handleCloseModal}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
