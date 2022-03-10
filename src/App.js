@@ -32,12 +32,8 @@ const App = () => {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/profiles">
-            <Profiles />
-          </Route>
-          <Route path="/profiles/:sport?/:athlete?">
-            <Profiles />
-          </Route>
+          <Route path="/profiles/:sport?/:athlete?" component={Profiles} />
+          <Route path="/profiles" component={Profiles} />
           <Route path="/">
             <Main />
           </Route>
