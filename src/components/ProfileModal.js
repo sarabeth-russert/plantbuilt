@@ -1,17 +1,26 @@
 import React from "react";
-import { Modal, Box, Typography } from "@mui/material";
+import {
+  Modal,
+  Typography,
+  Card,
+  CardContent,
+  CardHeader,
+  CardMedia,
+  Avatar,
+  IconButton,
+} from "@mui/material";
 import { useHistory } from "react-router-dom";
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
+import CloseIcon from "@mui/icons-material/Close";
 
 const style = {
   position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 400,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  p: 4,
+  top: "10%",
+  left: "5%",
+  width: "90%",
+  overflow: "scroll",
+  height: "90%",
+  display: "block",
 };
 
 const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
@@ -22,21 +31,100 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
     if (hash !== history.location.pathname) history.push(hash);
     setShowModal(false);
   };
+
+  const renderAthleteSocial = () => {
+    if (selectAthlete.social) {
+      return (
+        <>
+          <Typography variant="body1">Social Media</Typography>
+          <ul>
+            {selectAthlete.social.map((element, elemIdx) => (
+              <li key={elemIdx}>
+                {element.key}: {element.value}
+              </li>
+            ))}
+          </ul>
+        </>
+      );
+    }
+    return "";
+  };
+
+  const renderAthleteBio = () => {
+    if (selectAthlete.bio) {
+      const bio = selectAthlete.bio.map((question) => {
+        console.log(question);
+        if (question.key === "Competition History") {
+          return (
+            <>
+              <Typography variant="body1" key={question.key}>
+                <b>{question.key}</b>:
+              </Typography>
+              <ul>
+                {question.value.map((event, eventIdx) => (
+                  <li key={eventIdx}>{event}</li>
+                ))}
+              </ul>
+            </>
+          );
+        } else {
+          return (
+            <Typography paragraph variant="body1">
+              <b>{question.key}: </b>
+              {question.value}
+            </Typography>
+          );
+        }
+      });
+      return bio;
+    }
+    return "hello";
+  };
   return (
     <Modal
       open={showModal}
       onClose={handleCloseModal}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
+      sx={style}
     >
-      <Box sx={style}>
-        <Typography id="modal-modal-title" variant="h6" component="h2">
-          {selectAthlete.name}
-        </Typography>
-        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-          {selectAthlete.name}
-        </Typography>
-      </Box>
+      <Card>
+        <CardHeader
+          avatar={
+            <Avatar sx={{ bgcolor: "#709425" }} aria-label="recipe">
+              <FitnessCenterIcon />
+            </Avatar>
+          }
+          action={
+            <IconButton aria-label="settings" onClick={handleCloseModal}>
+              <CloseIcon />
+            </IconButton>
+          }
+          title={selectAthlete.name}
+          subheader={selectAthlete.sport}
+        />
+        <div style={{ display: "flex" }}>
+          <div>
+            <CardMedia
+              component="img"
+              // height="194"
+              image={selectAthlete.img}
+              alt={selectAthlete.name}
+            />
+            <CardContent>
+              <Typography variant="body2" color="text.secondary">
+                {renderAthleteSocial()}
+              </Typography>
+            </CardContent>
+          </div>
+          <div>
+            <CardContent sx={{ paddingTop: "0px" }}>
+              {renderAthleteBio()}
+            </CardContent>
+          </div>
+        </div>
+        {/* </Collapse> */}
+      </Card>
     </Modal>
   );
 };
