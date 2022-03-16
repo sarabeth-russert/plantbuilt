@@ -6,6 +6,7 @@ import { makeStyles } from "@mui/styles";
 // import NavMenu from "./NavMenu";
 import { Link } from "react-router-dom";
 import { MenuItem, Typography } from "@mui/material";
+import logo from "../plantbuilt-logo-dark.png";
 
 const useStyles = makeStyles({
   logo: {
@@ -38,11 +39,7 @@ export default function ButtonAppBar() {
             <Typography>2017 Results</Typography>
           </MenuItem>
           <Link to="/">
-            <img
-              src={"plantbuilt-logo-dark.png"}
-              alt="plantbuilt"
-              className={classes.logo}
-            />
+            <img src={logo} alt="plantbuilt" className={classes.logo} />
           </Link>
           <MenuItem className={classes.links}>
             <Typography>About Us</Typography>
