@@ -25,7 +25,6 @@ const style = {
 
 const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
   const history = useHistory();
-  console.log(history);
 
   const handleCloseModal = () => {
     history.goBack();

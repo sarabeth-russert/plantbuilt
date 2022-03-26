@@ -1,0 +1,8 @@
+{
+  "name":"",
+  "active": true,
+  "bio": [],
+  "sport": "",
+  "social": [{"key": "Website", "value": ""}, {"key": "Instagram", "value": ""}, {"key": "Facebook", "value": ""}, {"key": "Youtube", "value": ""}, {"key": "Tick-Tok", "value": ""}],
+  "img": "/profile-photos/plantbuilt-.png"
+}
