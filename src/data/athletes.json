@@ -3,7 +3,7 @@
     "img": "/profile-photos/plantbuilt-carolyn-johnson.png",
     "name": "Carolyn Johnson",
     "active": true,
-    "sport": "cf",
+    "sport": "olympic-weightlifting",
     "social": [{"key": "Instagram", "value":"olyn_86"}, {"key": "Facebook","value": "https://www.facebook.com/carolyn.napier.9"}]
   },
   {
@@ -46,7 +46,7 @@
     "img": "/profile-photos/plantbuilt-lindsay-morgan.png",
     "name": "Lindsay Morgan",
     "active": true,
-    "sport": "cf",
+    "sport": "olympic-weightlifting",
     "bio": [
       { "key": "Name", "value": "Lindsay Morgan. Age" },
       { "key": "Hometown/city", "value": "Tulsa, Oklahoma" },

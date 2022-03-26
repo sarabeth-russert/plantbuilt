@@ -12,6 +12,7 @@ const linkMap = {
   CF: "/profiles/cf",
   Powerlifting: "/profiles/powerlifting",
   "Kettlebell Sport": "/profiles/kettle-bell-sport",
+  "Olympic Weightlifting": "/profiles/olympic-weightlifting",
   About: "/about",
   Contact: "/contact",
 };
