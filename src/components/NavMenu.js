@@ -13,6 +13,7 @@ const linkMap = {
   Powerlifting: "/profiles/powerlifting",
   "Kettlebell Sport": "/profiles/kettle-bell-sport",
   "Olympic Weightlifting": "/profiles/olympic-weightlifting",
+  "Legacy Athletes": "/profiles/former-team",
   About: "/about",
   Contact: "/contact",
 };
