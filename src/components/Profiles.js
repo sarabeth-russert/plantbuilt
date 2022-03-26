@@ -7,12 +7,6 @@ import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import useWindowDimensions from "../windowDimensions";
 
-const layoutMap = {
-  900: { col: 4, row: 200 },
-  825: { col: 3, row: 180 },
-  700: { col: 3, row: 150 },
-};
-
 const Profiles = () => {
   // const classes = useStyles();
   const [showModal, setShowModal] = useState(false);
