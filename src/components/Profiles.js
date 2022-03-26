@@ -1,31 +1,44 @@
 import React, { useEffect, useState } from "react";
 import { ImageList, ImageListItem, Box, ImageListItemBar } from "@mui/material";
-import athletes from "../data/athletes.json";
+import athletesData from "../data/athletes.json";
 // import { makeStyles } from "@mui/styles";
 import ProfileModal from "./ProfileModal.js";
 import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import useWindowDimensions from "../windowDimensions";
 
-// const useStyles = makeStyles({
-//   inactive: {
-//     opacity: ".5",
-//     color: "white",
-//     height: "164px",
-//     width: "164px",
-//     zIndex: "10",
-//     position: "absolute",
-//   },
-//   active: {
-//     opacity: "0",
-//   },
-// });
+const layoutMap = {
+  900: { col: 4, row: 200 },
+  825: { col: 3, row: 180 },
+  700: { col: 3, row: 150 },
+};
 
 const Profiles = () => {
   // const classes = useStyles();
   const [showModal, setShowModal] = useState(false);
   const [selectAthlete, setSelectAthlete] = useState({});
+  const [athletes, setAthletes] = useState(athletesData);
+  // const [header, setHeader] = useState('')
   const history = useHistory();
-  const { athlete } = useParams();
+  const { sport, athlete } = useParams();
+  const { width } = useWindowDimensions();
+
+  useEffect(() => {
+    if (!sport) {
+      const filteredAthletes = athletesData.filter((athlete) => athlete.active);
+      setAthletes(filteredAthletes);
+      return;
+    }
+    if (sport !== "former-team") {
+      const filteredAthletes = athletesData.filter((athlete) => {
+        return athlete.sport === sport && athlete.active;
+      });
+      setAthletes(filteredAthletes);
+      return;
+    }
+    const filteredAthletes = athletesData.filter((athlete) => !athlete.active);
+    setAthletes(filteredAthletes);
+  }, [sport]);
 
   useEffect(() => {
     if (athlete) {
@@ -35,7 +48,7 @@ const Profiles = () => {
       setSelectAthlete(selectedAthlete[0]);
       setShowModal(true);
     }
-  }, [athlete]);
+  }, [athlete, athletes]);
 
   const handleClick = (athlete) => {
     const urlName = athlete.name.split(" ").join("-");
@@ -49,31 +62,41 @@ const Profiles = () => {
         justifyContent: "center",
         marginTop: "20px",
         marginBottom: "20px",
+        alignItems: "center",
       }}
     >
-      <ImageList sx={{ width: 820, margin: "auto" }} cols={5} rowHeight={164}>
-        {athletes.map((athlete) =>
-          athlete.active ? (
-            <ImageListItem
-              key={athlete.name}
-              onClick={() => handleClick(athlete)}
-            >
-              <img
-                src={athlete.img}
-                srcSet={athlete.img}
-                alt={athlete.name}
-                loading="lazy"
-                id={athlete.name}
-              />
-              <ImageListItemBar
-                // subtitle={athlete.sport.split("-").join(" ")}
-                title={athlete.name}
-              />
-            </ImageListItem>
-          ) : (
-            ""
-          )
-        )}
+      <ImageList
+        sx={{ width: width * 0.8, margin: "auto" }}
+        cols={width > 800 ? 4 : width > 650 ? 3 : 1}
+        rowHeight={
+          width > 800
+            ? (width * 0.8) / 4
+            : width > 650
+            ? (width * 0.8) / 3
+            : width * 0.8
+        }
+      >
+        {athletes.map((athlete) => (
+          <ImageListItem
+            key={athlete.name}
+            onClick={() => handleClick(athlete)}
+          >
+            <img
+              src={`${athlete.img.substring(
+                0,
+                athlete.img.length - 4
+              )}-square.png`}
+              srcSet={`${athlete.img.substring(
+                0,
+                athlete.img.length - 4
+              )}-square.png`}
+              alt={athlete.name}
+              loading="lazy"
+              id={athlete.name}
+            />
+            <ImageListItemBar title={athlete.name} />
+          </ImageListItem>
+        ))}
       </ImageList>
       <ProfileModal
         showModal={showModal}

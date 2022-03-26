@@ -8,6 +8,7 @@ import { MenuItem, Typography } from "@mui/material";
 import logo from "../plantbuilt-logo-dark.png";
 import useWindowDimensions from "../windowDimensions";
 import NavMenu from "./NavMenu";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const useStyles = makeStyles({
   logo: {
@@ -35,11 +36,18 @@ export default function ButtonAppBar() {
                 justifyContent: "space-evenly",
               }}
             >
-              <MenuItem className={classes.links}>
-                <Link className={classes.link} to="/profiles">
-                  <Typography className={classes.text}>Athletes</Typography>
-                </Link>
-              </MenuItem>
+              <NavMenu
+                className={classes.links}
+                title={"Athletes"}
+                menuItems={[
+                  "All Sports",
+                  "Bodybuilding",
+                  "CF",
+                  "Powerlifting",
+                  "Kettlebell Sport",
+                ]}
+                icon={<KeyboardArrowDownIcon />}
+              />
               <MenuItem className={classes.links}>
                 <Typography>2017 Results</Typography>
               </MenuItem>
@@ -65,7 +73,8 @@ export default function ButtonAppBar() {
             >
               <NavMenu
                 item={"open"}
-                menuItems={["athletes", "contact", "about"]}
+                menuItems={["Athletes", "Contact", "About"]}
+                icon={<KeyboardArrowDownIcon />}
               />
               {/* this needs to be centered */}
               <Link to="/">

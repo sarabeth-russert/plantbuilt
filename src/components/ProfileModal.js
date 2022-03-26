@@ -54,7 +54,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
     if (selectAthlete.bio) {
       const bio = selectAthlete.bio.map((question) => {
         console.log(question);
-        if (question.key === "Competition History") {
+        if (question.key === "Competition history") {
           return (
             <>
               <Typography variant="body1" key={question.key}>
@@ -78,7 +78,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
       });
       return bio;
     }
-    return "hello";
+    return "Bio coming soon!";
   };
   return (
     <Modal
@@ -107,7 +107,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
           <div>
             <CardMedia
               component="img"
-              // height="194"
+              sx={{ width: "450px", marginLeft: "15px" }}
               image={selectAthlete.img}
               alt={selectAthlete.name}
             />
