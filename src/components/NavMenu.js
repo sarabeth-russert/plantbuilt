@@ -2,9 +2,27 @@ import * as React from "react";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { Link } from "react-router-dom";
+import { makeStyles } from "@mui/styles";
+import { Typography } from "@mui/material";
 
-export default function NavMenu({ title, menuItems }) {
+const linkMap = {
+  "All Sports": "/profiles",
+  Bodybuilding: "/profiles/bodybuilding",
+  CF: "/profiles/cf",
+  Powerlifting: "/profiles/powerlifting",
+  "Kettlebell Sport": "/profiles/kettle-bell-sport",
+  About: "/about",
+  Contact: "/contact",
+};
+
+const useStyles = makeStyles({
+  text: { color: "white" },
+  link: { textDecoration: "none" },
+});
+
+export default function NavMenu({ title, menuItems, icon }) {
+  const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -25,7 +43,7 @@ export default function NavMenu({ title, menuItems }) {
         sx={{ color: "white" }}
       >
         {title}
-        <KeyboardArrowDownIcon />
+        {icon}
       </Button>
       <Menu
         id="Nav-menu"
@@ -38,7 +56,9 @@ export default function NavMenu({ title, menuItems }) {
       >
         {menuItems.map((item, idx) => (
           <MenuItem key={idx} onClick={handleClose}>
-            {item}
+            <Link to={linkMap[item]} className={classes.link}>
+              <Typography className={classes.text}>{item}</Typography>
+            </Link>
           </MenuItem>
         ))}
       </Menu>

@@ -52,7 +52,7 @@ const Hero = () => {
             gridRow="1"
             sx={{ display: "flex", alignItems: "center" }}
           >
-            <Card sx={{ minWidth: 400 }}>
+            <Card sx={{ minWidth: 320 }}>
               <CardMedia
                 component="img"
                 height="100%"
@@ -62,7 +62,7 @@ const Hero = () => {
             </Card>
           </Box>
           <Box gridColumn="1 / 13" gridRow="2">
-            <Card sx={{ minWidth: 100 }}>
+            <Card sx={{ minWidth: 320 }}>
               <CardContent>
                 <Typography variant="h4" component="div">
                   PLANTBUILT
