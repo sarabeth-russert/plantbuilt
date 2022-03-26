@@ -45,6 +45,8 @@ export default function ButtonAppBar() {
                   "CF",
                   "Powerlifting",
                   "Kettlebell Sport",
+                  "Olympic Weightlifting",
+                  "Legacy Athletes",
                 ]}
                 icon={<KeyboardArrowDownIcon />}
               />

@@ -12,6 +12,8 @@ const linkMap = {
   CF: "/profiles/cf",
   Powerlifting: "/profiles/powerlifting",
   "Kettlebell Sport": "/profiles/kettle-bell-sport",
+  "Olympic Weightlifting": "/profiles/olympic-weightlifting",
+  "Legacy Athletes": "/profiles/former-team",
   About: "/about",
   Contact: "/contact",
 };
@@ -55,11 +57,11 @@ export default function NavMenu({ title, menuItems, icon }) {
         }}
       >
         {menuItems.map((item, idx) => (
-          <MenuItem key={idx} onClick={handleClose}>
-            <Link to={linkMap[item]} className={classes.link}>
+          <Link to={linkMap[item]} className={classes.link}>
+            <MenuItem key={idx} onClick={handleClose}>
               <Typography className={classes.text}>{item}</Typography>
-            </Link>
-          </MenuItem>
+            </MenuItem>
+          </Link>
         ))}
       </Menu>
     </div>

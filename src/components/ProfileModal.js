@@ -27,8 +27,9 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
   const history = useHistory();
 
   const handleCloseModal = () => {
-    let hash = `/profiles`;
-    if (hash !== history.location.pathname) history.push(hash);
+    history.goBack();
+    // let hash = `/profiles/${selectAthlete.sport}`;
+    // if (hash !== history.location.pathname) history.push(hash);
     setShowModal(false);
   };
 
@@ -53,7 +54,6 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
   const renderAthleteBio = () => {
     if (selectAthlete.bio) {
       const bio = selectAthlete.bio.map((question) => {
-        console.log(question);
         if (question.key === "Competition history") {
           return (
             <>
