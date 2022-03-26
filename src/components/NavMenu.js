@@ -55,11 +55,11 @@ export default function NavMenu({ title, menuItems, icon }) {
         }}
       >
         {menuItems.map((item, idx) => (
-          <MenuItem key={idx} onClick={handleClose}>
-            <Link to={linkMap[item]} className={classes.link}>
+          <Link to={linkMap[item]} className={classes.link}>
+            <MenuItem key={idx} onClick={handleClose}>
               <Typography className={classes.text}>{item}</Typography>
-            </Link>
-          </MenuItem>
+            </MenuItem>
+          </Link>
         ))}
       </Menu>
     </div>
