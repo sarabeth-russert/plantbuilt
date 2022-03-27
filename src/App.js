@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar.js";
 import Main from "./components/Main.js";
 import Profiles from "./components/Profiles.js";
 import Footer from "./components/Footer.js";
+import Results2017 from "./components/Results2017.js";
 // import theme from "./theme.js"
 
 import { createTheme } from "@mui/material/styles";
@@ -34,6 +35,7 @@ const App = () => {
         <Switch>
           <Route path="/profiles/:sport?/:athlete?" component={Profiles} />
           <Route path="/profiles" component={Profiles} />
+          <Route path="/results-2017" component={Results2017} />
           <Route path="/">
             <Main />
           </Route>

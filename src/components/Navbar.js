@@ -51,7 +51,9 @@ export default function ButtonAppBar() {
                 icon={<KeyboardArrowDownIcon />}
               />
               <MenuItem className={classes.links}>
-                <Typography>2017 Results</Typography>
+                <Link to="/results-2017" className={classes.link}>
+                  <Typography className={classes.text}>2017 Results</Typography>
+                </Link>
               </MenuItem>
               <Link to="/">
                 <img src={logo} alt="plantbuilt" className={classes.logo} />

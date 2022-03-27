@@ -62,7 +62,9 @@ const MainCard = ({ card }) => {
             {card.text}
           </Typography>
           <CardActions>
-            <Button size="small">Learn More</Button>
+            <Button size="small" target="_blank" href={card.link}>
+              Learn More
+            </Button>
           </CardActions>
         </CardContent>
       </Card>
