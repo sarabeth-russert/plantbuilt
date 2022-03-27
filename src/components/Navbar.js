@@ -9,6 +9,7 @@ import logo from "../plantbuilt-logo-dark.png";
 import useWindowDimensions from "../windowDimensions";
 import NavMenu from "./NavMenu";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const useStyles = makeStyles({
   logo: {
@@ -51,7 +52,9 @@ export default function ButtonAppBar() {
                 icon={<KeyboardArrowDownIcon />}
               />
               <MenuItem className={classes.links}>
-                <Typography>2017 Results</Typography>
+                <Link to="/results-2017" className={classes.link}>
+                  <Typography className={classes.text}>2017 Results</Typography>
+                </Link>
               </MenuItem>
               <Link to="/">
                 <img src={logo} alt="plantbuilt" className={classes.logo} />
@@ -71,17 +74,18 @@ export default function ButtonAppBar() {
             <Toolbar
               sx={{
                 display: "flex",
+                justifyContent: "space-between",
               }}
             >
               <NavMenu
                 item={"open"}
                 menuItems={["Athletes", "Contact", "About"]}
-                icon={<KeyboardArrowDownIcon />}
+                icon={<MenuIcon />}
               />
-              {/* this needs to be centered */}
-              <Link to="/">
+              <Link to="/" style={{ width: "250px" }}>
                 <img src={logo} alt="plantbuilt" className={classes.logo} />
               </Link>
+              <NavMenu item={""} menuItems={[]} icon={""} />
             </Toolbar>
           </AppBar>
         </Box>
