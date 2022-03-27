@@ -1,15 +1,55 @@
 [
   {
+    "name":"Allison Dunham",
+    "img": "/profile-photos/plantbuilt-allison-dunham.png",
+    "active": false,
+    "sport": "cf",
+    "bio": "",
+    "social": []
+  },
+  {
     "img": "/profile-photos/plantbuilt-amber-sperling.png",
     "name": "Amber Sperling",
     "active": false,
     "sport": "cf"
   },
   {
+    "name":"Anastasia Zinchenko",
+    "img": "/profile-photos/plantbuilt-anastasia-zinchenko.png",
+    "active": false,
+    "sport": "powerlifter",
+    "bio": "",
+    "social": []
+  },
+  {
     "img": "/profile-photos/plantbuilt-arvid-beck.png",
     "name": "Arvid Beck",
     "active": false,
     "sport": "bodybuilding"
+  },
+  {
+    "name":"Ashlee Harrison",
+    "img": "/profile-photos/plantbuilt-ashlee-harrison.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Ben Buhrow",
+    "img": "/profile-photos/plantbuilt-ben-buhrow.png",
+    "active": false,
+    "sport": "cf",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Billy Prusinowski",
+    "img": "/profile-photos/plantbuilt-billy-prusinowski.png",
+    "active": false,
+    "sport": "cf",
+    "bio": "",
+    "social": []
   },
   {
     "name": "Brittany Billings",
@@ -20,6 +60,14 @@
     "bio": [{"key":"Age","value":"35"},{"key":"Hometown/city","value":"Fort Wayne, Indiana"},{"key":"Height","value":"5’7"},{"key":"Weight","value":"180 lbs."},{"key":"Division(s) you will compete in","value":"Powerlifting"},{"key":"Competition Weight","value":"82.5 kg"},{"key":"Current max lifts","value":"Bench/Squat/Deadlift 150/225/250"},{"key":"Years as a vegan","value":"6"},{"key":"Why you became a Vegan","value":"I’ve always been an animal lover but it wasn’t until I was years into being a vegetarian that I truly understood the harm that the dairy industry causes. I started to do research and one night I decided to watch the documentary Earthlings. I was only able to watch about 15 minutes of it before I decided then and there that I would never be the cause of animal suffering again. There is no food or product worth the millions of animals living in misery and thousands that have unnecessarily had their lives taken even in the time it’s taken me to type this. Although animals will always be the reason I’m vegan, the added environmental and physical benefits are icing on the cake."},{"key":"What drives you to compete", "value": "Challenging myself and accomplishing goals I set for myself."},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"Other than significantly improved recovery time, breaking stereotypes as a vegan. I love when people come up to talk to me at the gym or ask questions and I get to share my journey with them and show them that you can thrive on a vegan diet."},{"key":"What types of supplements if any do you use?","value":"Creatine, a multivitamin, and b12. I’m not too picky with brands as long as the ingredients are good."},{"key":"How would you describe your diet/nutrition leading up to a meet","value":"I eat quite a bit of protein and carbs. Anytime I have any type of competition coming up, I try to eat more whole foods since that’s what I’ve found usually makes me feel best."},{"key":"Favorite foods/meals","value":"Seitan is my favorite food. It’s so versatile that I could eat it for every meal (and sometimes do). My favorite meal is anything Mexican."},{"key":"How would you describe your training for a competition","value":"Whatever Dani tells me to do Lower reps and higher weight usually. It’s my favorite kind of training."},{"key":"Favorite exercises","value":"Deadlifts and anything shoulders."},{"key":"How many hours a week do you spend training?","value":"About 7 hours."},{"key":"Today I am most proud of","value":"Making the conscious choice to put animal’s needs about my own."}]
   },
   {
+    "name":"Bryan Jervey",
+    "img": "/profile-photos/plantbuilt-bryan-jervey.png",
+    "active": true,
+    "sport": "cf",
+    "bio": "",
+    "social": []
+  },
+  {
     "img": "/profile-photos/plantbuilt-carolyn-johnson.png",
     "name": "Carolyn Johnson",
     "active": true,
@@ -27,10 +75,40 @@
     "social": [{"key": "Instagram", "value":"https://www.instagram.com/olyn_86"}, {"key": "Facebook","value": "https://www.facebook.com/carolyn.napier.9"}]
   },
   {
+    "img": "/profile-photos/plantbuilt-chad-byers.png",
+    "name": "Chad Byers",
+    "active": false,
+    "sport": "bodybuilding"
+  },
+  {
     "img": "/profile-photos/plantbuilt-christian-garcia.png",
     "name": "Christian Garcia",
     "active": false,
     "sport": "bodybuilding"
+  },
+  {
+    "name":"Christine Crumbley",
+    "img": "/profile-photos/plantbuilt-christine-crumbley.png",
+    "active": false,
+    "sport": "olympic-weightlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Courtney Eastman",
+    "img": "/profile-photos/plantbuilt-courtney-eastman.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Crystal Moulton",
+    "img": "/profile-photos/plantbuilt-crystal-moulton.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
   },
   {
     "img": "/profile-photos/plantbuilt-dani-taylor.png",
@@ -47,6 +125,22 @@
     "social": [{"key": "Website", "value": "www.veganmeathead.com www.daniel-austin.com"}, {"key": "Instagram", "value": "https://www.instagram.com/veganxmeathead"}, {"key": "Facebook", "value": "https://www.facebook.com/veganxmeathead"}, {"key": "Youtube", "value": "https://www.youtube.com/channel/UC4R9b7Vdg14QtWvDuoY2klw"}]
   },
   {
+    "name":"Darin Bergen",
+    "img": "/profile-photos/plantbuilt-darin-bergen.png",
+    "active": false,
+    "sport": "olympic weightlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Derek Tresize",
+    "img": "/profile-photos/plantbuilt-derek-tresize.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "name":"Ed Bauer",
     "active": true,
     "bio": [{"key":"Name","value":"Ed Bauer"},{"key":"Age","value":"42"},{"key":"Hometown/city","value":"Norfolk, VA"},{"key":"Height","value":"5’9”"},{"key":"Weight","value":"175lbs"},{"key":"Division(s) you will compete in","value":"Men’s Physique Masters (40+)"},{"key":"Competition Weight","value":"175"},{"key":"Years as a vegan","value":"26"},{"key":"Why you became a Vegan","value":"To stop the torture and murder of all sentient beings"},{"key":"Competition history","value": ["2010 NPC Bill Pearl High Desert Classic (Bend, OR) – 1st in Novice Middleweight Bodybuilding", "2011 NANBF Washington State Championships (Seattle, WA) – 4th in Open Short Class Bodybuilding", "2013 INBF Men’s Physique (Austin, TX) 2nd Place Fit Model Men", "2016 May 8th, 2016 Old Skool Iron Classic Powerlifting Meet – 2nd Place in Sub-Masters Division"]},{"key":"What drives you to compete","value":"To prove to the world that veganism and my determination can build a healthy, lean, and muscular body."},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"One of the biggest advantages is the ability to recover faster because of the amount of nutrient dense foods in a whole foods plant based diet. We are also living in a time where speciesism is allowing humankind to commit inconceivable atrocities on other living creatures. I am passionately driven to be a part of this change that sees non-human animals as living beings that deserve to live their lives free from pain and suffering, just as any of us would want. My role of being a vegan ambassador (Olympic Lifter, Powerlifter, CrossFit athlete, Bodybuilder, etc.) is far more driven than someone who simply is in it to fulfill their ego. This is a huge advantage."},{"key":"What types of supplements if any do you use?","value":"Creatine, Glutamine, PlantFusion Protein Powder, a Pre-Workout Formula, Digestive Enzymes, DHA Algal Oil, and ZMA for recovery"},{"key":"How would you describe your diet/nutrition leading up to a show","value":"For the cutting phase, I would describe it as low carb, plant based whole foods diet, with a good amount of beans, tempeh, seitan, tofu, some veg meats like “Tofurky” or “Beyond Meat,” and protein powder to balance out my macronutrients. I load carbohydrates around weight lifting, but limit them other times of the day."},{"key":"Favorite foods/meals","value":"Tofu Chick’n Salad on a Low Carb Wrap with Clean Machine Fruit Punch BCAAs to drink."},{"key":"How would you describe your training for a competition","value":"I do 5 days of week of muscle specific hypertrophy training, and 4 to 6 days of fasted cardio to aid in fat loss."},{"key":"Favorite exercises","value":"Dumbbell Chest Press, Dips, and Back Squats."},{"key":"How many hours a week do you spend training?","value":"10 hours"},{"key":"Today I am most proud of","value":"Deadlifting 507 lbs, benching 315 lbs, Squatting 418lbs, Showing people that you can be lean and strong on a completely plant-based diet, as well as owning NewEthic Strength & Conditioning in Norfolk, Virginia."}],
@@ -55,12 +149,52 @@
     "img": "/profile-photos/plantbuilt-ed-bauer.png"
   },
   {
+    "name":"Elana Priesman",
+    "img": "/profile-photos/plantbuilt-elana-priesman.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Emilie Tan",
+    "img": "/profile-photos/plantbuilt-emilie-tan.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Emily McWilliams",
+    "img": "/profile-photos/plantbuilt-emily-mcwilliams.png",
+    "active": false,
+    "sport": "kettle-bell-sport",
+    "bio": "",
+    "social": []
+  },
+  {
     "name": "Emily Wilson",
     "img": "/profile-photos/plantbuilt-emily-wilson.png",
     "sport": "cf",
     "active": true,
     "bio": [{"key":"Age","value":"34"},{"key":"Hometown/city","value":"McCall, Idaho"},{"key":"Height","value":"5’2"},{"key":"Weight","value":"120"},{"key":"Division(s) you will compete in","value":"individual rx’d"},{"key":"Competition Weight","value":"120-125"},{"key":"Current best lifts, scores, etc:"},{"key":"BSQ","value":"185, DL"},{"key":"Years as a vegan","value":"3+"},{"key":"Why you became a Vegan","value":"For the animals. I refuse to participate in a system that is inherently violent and causes mass amounts of suffering to living beings. I want to contribute as little as possible to the suffering on this planet."},{"key":"History competing","value":"I have been training and coaching in CrossFit for over 11 years. I have participated in a few local competitions and have contributed scores to qualify CrossFit teams for regionals but honestly, competing has not been my main focus. My primary focus is to be fit, healthy, muscular, and have fun in life, and my dedication to crossfit has been one major avenue that’s allowed me to do this."},{"key":"What drives you to compete","value":"Representing for the animals and a vegan lifestyle."},{"key":" What do you see as the biggest advantages of being a vegan athlete","value":"Improved and increased recovery. Knowing that my success and accomplishments as an athlete aren’t dependent on taking another’s life."},{"key":"What types of supplements if any do you use?","value":"Vitamin supplements including D, B12, Zinc, Turmeric as well as protein powder."},{"key":"How would you describe your diet/nutrition leading up to a competition","value":"Focus on high quality, nutrient dense foods and making sure I’m eating enough to fuel performance."},{"key":"Favorite foods/meals","value":"Can never get enough stir fry with veggies, tofu and rice. I LOVE pasta topped with marinara, lots of nooch and loads of veggies. Wraps/tacos are so easy and satisfying. Go-to breakfast is loaded oatmeal with all kinds of yummy things like spinach, berries, nut butter, flax meal, maple syrup and plant milk."},{"key":"How would you describe your training for a competition","value":"Focus is on developing and increasing my conditioning capacity, muscular endurance, cardiovascular endurance, strength building, and gymnastics skills. Gotta focus on recovery and sleep too. Mobility work and body work is key."},{"key":"Favorite exercises","value":"SQUATS. I love squatting. I love the olympic lifts - snatch and clean and jerk. And I love gymnastics movements like muscle ups and handstands of all kinds."},{"key":"How many hours a week do you spend training?","value":"7+"},{"key":"Today I am most proud of","value":"My commitment and resolve to weightlifting consistently, to choosing to leave animals off my plate, and to personal growth and evolution. The inner work I’ve done to heal myself (mentally, emotionally) from the inside out and how it has transformed my relationship with myself and with every person in my life."}],
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/emilylouisefitness"}, {"key": "Facebook", "value": "https://www.facebook.com/emily.owens.75"}]
+  },
+  {
+    "name":"Erin Fergus",
+    "img": "/profile-photos/plantbuilt-erin-fergus.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Forest Crosbie",
+    "img": "/profile-photos/plantbuilt-forest-crosbie.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
   },
   {
     "name": "George Mathews",
@@ -87,6 +221,22 @@
     "social": []
   },
   {
+    "name":"Jake Henderson",
+    "img": "/profile-photos/plantbuilt-jake-henderson.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Jason Morris",
+    "img": "/profile-photos/plantbuilt-jason-morris.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "name":"Jehina Malik",
     "img": "/profile-photos/plantbuilt-jehina-malik.png",
     "active": false,
@@ -103,10 +253,34 @@
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/jennybean__"}]
   },
   {
+    "name":"Jennifer Moore",
+    "img": "/profile-photos/plantbuilt-jennifer-moore.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Jessica Wilkins",
+    "img": "/profile-photos/plantbuilt-jessica-wilkins.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
+  },
+  {
     "img": "/profile-photos/plantbuilt-jillian-salomone.png",
     "name": "Jillian Salomone",
     "active": false,
     "sport": "bodybuilding"
+  },
+  {
+    "name":"Josh Verdi",
+    "img": "/profile-photos/plantbuilt-josh-verdi.png",
+    "active": false,
+    "sport": "olympic weightlifiting",
+    "bio": "",
+    "social": []
   },
   {
     "name":"Justin Karstetter",
@@ -115,6 +289,14 @@
     "sport": "bodybuilding",
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/karpowr"}, {"key": "Facebook", "value": "https://www.facebook.com/justin.karstetter"}],
     "img": "/profile-photos/plantbuilt-justin-karkstetter.png"
+  },
+  {
+    "name":"Justin Morgan",
+    "img": "/profile-photos/plantbuilt-justin-morgan.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
   },
   {
     "name":"Katya Gorbacheva",
@@ -157,6 +339,38 @@
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/lindsaymorganfitness"}, {"key": "Facebook", "value": "https://facebook.com/lindsay.g.morgan"}]
   },
   {
+    "name":"Lindsay Wolf",
+    "img": "/profile-photos/plantbuilt-lindsay-wolf.png",
+    "active": false,
+    "sport": "kettle-bell-sport",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Luke Tan",
+    "img": "/profile-photos/plantbuilt-luke-tan.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Maeve Suar",
+    "img": "/profile-photos/plantbuilt-maeve-suar.png",
+    "active": false,
+    "sport": "cf",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"marcella torres",
+    "img": "/profile-photos/plantbuilt-marcella-torres.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "name": "Matt Bruce",
     "img": "/profile-photos/plantbuilt-matt-bruce.png",
     "sport": "kettle-bell-sport",
@@ -173,12 +387,44 @@
     "social": [{"key": "Facebook", "value": "https://www.facebook.com/mattsteadman"}, {"key": "Instagram", "value": "https://www.instagram.com/mattsteadmansandc"}]
   },
   {
+    "name":"Melissa Hauser",
+    "img": "/profile-photos/plantbuilt-melissa-hauser.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Mike Wolf",
+    "img": "/profile-photos/plantbuilt-mike-wolf.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Mindy Collette",
+    "img": "/profile-photos/plantbuilt-mindy-collette.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "img": "/profile-photos/plantbuilt-nadege-corcoran.png",
     "sport": "bodybuilding",
     "active": true,
     "name": "Nadege Corcoran",
     "bio": [{"key":"Age","value":"42"},{"key":"Hometown/city","value":"Caraquet New Brunswick Canada"},{"key":"Height","value":"5’4"},{"key":"Weight","value":"120"},{"key":"Division(s) you will compete in","value":"Bikini- bodybuilding"},{"key":"Years as a vegan","value":"10 years in March 2022"},{"key":"Why you became a Vegan","value":"I always wanted to be vegan. At 5 years old I would cry that I had to eat animals. It was always in me, we just didn’t know ow a word for it and people thought (and made me believe) you needed animal as food to survive. Fast forward to my late 20s and I started realizing was living with disease and it was exactly that… my body was “not at ease”. As soon as I started moving towards a plant based lifestyle its like the stars were aligning. My soul, my mind and my body were all in agreement. So I became vegan overnight."},{"key":"Competition history","value":["15 shows","27 categories","14 top 3 placings including 6x 1st place."]},{"key":"What drives you to compete:"},{"key":"I want to not just say but show that veganism is not only a great way of life, its an optimal way of life."},{"key":"What do you see as the biggest advantages of being a vegan athlete:"},{"key":"My love of vegetables, in all seriousness it’s the recovery. Even in very low caloric diets, my nutrients stay really high in comparison."},{"key":"What types of supplements if any do you use?:"},{"key":"Omega oils, b12, d, creatine, BCAA sometimes. And if counted.. protein powder"},{"key":"How would you describe your diet/nutrition leading up to a show:"},{"key":"A diet of military precision. Not one gram goes unaccounted for. And also… locked in so that if doesn’t taste great but it has the right macros… it is what it is and it’s fine."},{"key":"Favorite foods/meals","value":"Protein powder!!!!! I will do anything for some Caramel Coffee Profi!"},{"key":"How would you describe your training for a competition","value":"Very similar to standard Bikini bodybuilding with the extra added bonus of training for long races to get my cardio done. Of course I am not an elite runner, but I hold my own and when lean down starts it’s like we let the horse out of the barn!"},{"key":"Favorite exercises","value":"Probably the hip thrust."},{"key":"How many hours a week do you spend training?","value":"5 hours ish of lifting and depending on cardio it adds another 2 to infinite hours 😅"},{"key":"Today I am most proud of","value":"My consistency."}],
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/nadegecorcoran"}, {"key": "Facebook", "value": "https://www.facebook.com/nadege.corcoran"}]
+  },
+  {
+    "name":"Natalie Matthews",
+    "img": "/profile-photos/plantbuilt-natalie-matthews.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
   },
   {
     "img": "/profile-photos/plantbuilt-ndem-nkem.png",
@@ -205,10 +451,34 @@
     "social": [{"key": "Website", "value": "https://www.noah.org.au/"}, {"key": "Instagram", "value": "https://www.instagram.com/thevegantank"}, {"key": "Facebook", "value": "https://www.facebook.com/noah.hannibal/"}, {"key": "YouTube", "value": "https://www.youtube.com/c/vegantank"}]
   },
   {
+    "name":"Pam Kalstad",
+    "img": "/profile-photos/plantbuilt-pam-kalstad.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Paola Deocampo Jackson",
+    "img": "/profile-photos/plantbuilt-paola-deocampo-jackson.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "img": "/profile-photos/plantbuilt-paul-salomone.png",
     "name": "Paul Salomone",
     "active": false,
     "sport": "powerlifting"
+  },
+  {
+    "name":"Rachel Stein",
+    "img": "/profile-photos/plantbuilt-rachel-stein.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
   },
   {
     "name":"Ramona Cadogan",
@@ -228,6 +498,22 @@
 
   },
   {
+    "name":"Richard Campbell",
+    "img": "/profile-photos/plantbuilt-richard-campbell.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Robert Cheeke",
+    "img": "/profile-photos/plantbuilt-robert-cheeke.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "name":"Ryan Stills",
     "img": "/profile-photos/plantbuilt-no-photo.png",
     "active": true,
@@ -237,10 +523,26 @@
   },
   {
     "name":"Sally Anderson",
-    "img": "/profile-photos/plantbuilt-no-photo.png",
+    "img": "/profile-photos/plantbuilt-sally-anderson.png",
     "active": true,
     "sport": "cf",
     "bio": [],
+    "social": []
+  },
+  {
+    "name":"Sam Hartman",
+    "img": "/profile-photos/plantbuilt-sam-hartman.png",
+    "active": false,
+    "sport": "olympic-weightlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Samantha Shorkey",
+    "img": "/profile-photos/plantbuilt-samantha-shorkey.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
     "social": []
   },
   {
@@ -249,6 +551,14 @@
     "active": true,
     "sport": "kettle-bell-sport",
     "bio": [],
+    "social": []
+  },
+  {
+    "name":"Sara Lee",
+    "img": "/profile-photos/plantbuilt-sara-lee.png",
+    "active": false,
+    "sport": "kettle-bell-sport",
+    "bio": "",
     "social": []
   },
   {
@@ -277,12 +587,44 @@
     "social": [{"key": "Website", "value": "https://www.selfliberationstrength.com/"}, {"key": "Instagram", "value":"https://www.instagram.com/ScottGreenXVX"}, {"key": "Facebook","value": "https://www.facebook.com/scott.green.522"}]
   },
   {
+    "name":"Scott Shetler",
+    "img": "/profile-photos/plantbuilt-scott-shetler.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Shalee Denver",
+    "img": "/profile-photos/plantbuilt-shalee-denver.png",
+    "active": false,
+    "sport": "kettle-bell-sport",
+    "bio": "",
+    "social": []
+  },
+  {
+    "name":"Simone Collins",
+    "img": "/profile-photos/plantbuilt-simone-collins.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "name": "Sophie Brock", 
     "img": "/profile-photos/plantbuilt-sophie-mcbride.png",
     "sport": "cf",
     "active": true,
     "bio": [{"key":"Age","value":"30"},{"key":"Hometown/city","value":"Colorado Springs, CO"},{"key":"Height","value":"5’4"},{"key":"Weight","value":"140"},{"key":"Division(s) you will compete in","value":"CrossFit"},{"key":"Current best lifts, scores, etc","value":"Deadlift"},{"key":"Years as a vegan","value":"9"},{"key":"Why you became a Vegan","value":"I’m an animal lover! Went vegetarian at 9 as soon as I understood that I was eating animals. Went vegan at 22 when I watched “What the Health” and saw the awful conditions and death involved with dairy and eggs as well."},{"key":"History Competing","value":"I have been competing in strength sports since 2015, beginning with Strongman. In the years since I have dabbled in Bodybuilding and Olympic Weightlifting, and jumped deeper into CrossFit and Powerlifting. I currently hold the Colorado state records in the deadlift and total for powerlifting. I have podiumed at three local CrossFit competitions, and took 11th at my first pro event in 2018. At the same competition the next year I competed on a team and we took third. I had big plans for 2020 before covid hit, so I’m excited to get back into some big competitions this year!"},{"key":"Your ranking","value":"Currently sitting in 1,431st in the US after one workout in the CF open."},{"key":"What drives you to compete","value":"For one I have just always loved the feeling. There’s nothing else quite like game day adrenaline. What keeps me going every day is showing others that you can be strong and fit on a vegan diet."},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"My recovery is great! I can sustain a very high volume of training because my body can recover from it quickly, thanks to the clean fuel I give it. Getting fitter or stronger all comes down to how well you are recovering and I don’t think there’s anything better for recovery than good sleep and a WFPB diet."},{"key":"What types of supplements if any do you use?","value":"I use a plant based protein powder and a multi vitamin. Have used creatine here and there."},{"key":"How would you describe your diet/nutrition leading up to a competition","value":"Mostly whole-food plant-based, with a few vegan treats when I mentally need it. Lots of carbs! Oats, sweet potatoes, and fruit are my go-to fuels."},{"key":"Favorite foods/meals","value":"I love brunch! Tofu scramble, pancakes or waffles, and an oatmilk latte to top it off. I also really love fruit!"},{"key":"How would you describe your training for a competition","value":"Fun and intense. In the off season there is a lot more controlled strength work and lower intensity aerobic work, then the few months before competition I dial up the intensity."},{"key":"Favorite exercises","value":"Power cleans, box jumps, and rope climbs!"},{"key":"How many hours a week do you spend training?","value":"Currently 10-15. Will be at the higher end of that or above leading into competition."}],
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/coach_sophie_b"}]
+  },
+  {
+    "name":"Stephanie Rice",
+    "img": "/profile-photos/plantbuilt-stephanie-rice.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
   },
   {
     "img": "/profile-photos/plantbuilt-tiffany-burich.png",
@@ -301,6 +643,14 @@
     "social": [{"key": "Website", "value": "https://www.torrewashington.com/"}, {"key": "Instagram", "value": "https://www.instagram.com/torre.washington"}, {"key": "Facebook", "value": "https://www.facebook.com/TorreWashingtonOfficial"}, {"key": "Twitter", "value": "https://twitter.com/torrewofficial"}]
   },
   {
+    "name":"Tricia Byers",
+    "img": "/profile-photos/plantbuilt-tricia-byers.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": "",
+    "social": []
+  },
+  {
     "name": "Tui Van Renterghem",
     "img": "/profile-photos/plantbuilt-tui-van-renterghem.png",
     "sport": "cf",
@@ -315,6 +665,14 @@
     "sport": "bodybuilding",
     "bio": [{"key":"Name","value":"Will Tucker"},{"key":"Age","value":"51"},{"key":"Hometown/city","value":"East St. Louis, IL by way of Mesa, AZ"},{"key":"Height","value":"5’7”"},{"key":"Weight","value":"150 lb"},{"key":"Division(s) you will compete in","value":"Men’s Bodybuilding Open, Masters, Pro"},{"key":"Competition Weight","value":"150-155 lb"},{"key":"Years as a vegan","value":"10 1/2"},{"key":"Why you became a Vegan","value":"After being vegetarian for 5yrs, I worked to go animal free to see how my recovery would be. It improved so much I never looked back"},{"key":"What drives you to compete","value":"To show the world you don’t need to consume animal products to be your best"},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"A clear conscience knowing I achieved my physique with harm"},{"key":"What types of supplements if any do you use?","value":"None"},{"key":"How would you describe your diet/nutrition leading up to a show","value":"Intermittent fasting"},{"key":"Favorite foods/meals","value":"Smoothies, Bowls"},{"key":"Favorite exercises","value":"Bench presss"},{"key":"How many hours a week do you spend training?","value":"7-8"},{"key":"Today I am most proud of","value":"My son"}],
     "social": [{"key": "Instagram", "value": "https://www.instagram.com/willtuckerfitness"}]
+  },
+  {
+    "name":"Zackery Bickford",
+    "img": "/profile-photos/plantbuilt-zackery-bickford.png",
+    "active": false,
+    "sport": "powerlifting",
+    "bio": "",
+    "social": []
   }
 ]
 
