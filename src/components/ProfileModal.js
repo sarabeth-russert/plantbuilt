@@ -12,6 +12,7 @@ import {
 import { useHistory } from "react-router-dom";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import CloseIcon from "@mui/icons-material/Close";
+import SocialMediaIcons from "./SocialMediaIcons";
 
 const style = {
   position: "absolute",
@@ -37,14 +38,12 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
     if (selectAthlete.social) {
       return (
         <>
-          <Typography variant="body1">Social Media</Typography>
-          <ul>
+          {/* <Typography variant="body1">Social Media</Typography> */}
+          <div style={{ display: "flex" }}>
             {selectAthlete.social.map((element, elemIdx) => (
-              <li key={elemIdx}>
-                {element.key}: {element.value}
-              </li>
+              <SocialMediaIcons key={elemIdx} socialLink={element} />
             ))}
-          </ul>
+          </div>
         </>
       );
     }
@@ -69,7 +68,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
           );
         } else {
           return (
-            <Typography paragraph variant="body1">
+            <Typography key={question.key} paragraph variant="body1">
               <b>{question.key}: </b>
               {question.value}
             </Typography>
@@ -112,9 +111,9 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
               alt={selectAthlete.name}
             />
             <CardContent>
-              <Typography variant="body2" color="text.secondary">
-                {renderAthleteSocial()}
-              </Typography>
+              {/* <Typography variant="body2" color="text.secondary"> */}
+              {renderAthleteSocial()}
+              {/* </Typography> */}
             </CardContent>
           </div>
           <div>

@@ -4,6 +4,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import SocialMediaIcons from "./SocialMediaIcons";
 // import { makeStyles } from "@mui/styles";
 // import NavMenu from "./NavMenu";
 // import { MenuItem, Typography } from "@mui/material";
