@@ -12,19 +12,28 @@ const Results2017 = () => {
         style={{
           width: width * 0.8,
           display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "space-evenly",
+          flexDirection: "column",
+          alignItems: "center",
           margin: "20px 0 20px 0",
         }}
       >
-        {data.map((section, idx) => (
-          <ResultCard key={idx} card={section} />
-        ))}
-        <img
-          src={"/plantbuilt-flyer-2017.png"}
-          alt={"2017 flyer"}
-          style={{ width: width * 0.33, margin: "0 0 20px 0" }}
-        />
+        <h1>2017 Competition Results</h1>
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+          }}
+        >
+          {data.map((section, idx) => (
+            <ResultCard key={idx} card={section} />
+          ))}
+          <img
+            src={"/plantbuilt-flyer-2017.png"}
+            alt={"2017 flyer"}
+            style={{ width: width * 0.33, margin: "0 0 20px 0" }}
+          />
+        </div>
       </Paper>
     </div>
   );
