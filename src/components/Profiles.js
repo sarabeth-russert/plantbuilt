@@ -36,7 +36,7 @@ const Profiles = () => {
 
   useEffect(() => {
     if (athlete) {
-      const selectedAthlete = athletes.filter(
+      const selectedAthlete = athletesData.filter(
         (anAthlete) => anAthlete.name === athlete.split("-").join(" ")
       );
       setSelectAthlete(selectedAthlete[0]);

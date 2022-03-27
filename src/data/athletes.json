@@ -87,6 +87,14 @@
     "social": [{"key": "Website", "value": ""}, {"key": "Instagram", "value": ""}, {"key": "Facebook", "value": ""}, {"key": "Youtube", "value": ""}, {"key": "TikTok", "value": ""}]
   },
   {
+    "name":"Jehina Malik",
+    "img": "/profile-photos/plantbuilt-jehina-malik.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": [{"key":"Legacy Team Member","value":"Bio accurate in 2017"},{"key":"Name","value":"Jehina Malik"},{"key":"Division you will compete in","value":"Women's Light Weight Bodybuilding and Women's Physique"},{"key":"Height","value":"5'1"},{"key":"Weight/Competition Weight","value":"130-128 off season, 118-116 competition weight"},{"key":"City","value":"Brooklyn"},{"key":"Years as a vegan","value":"Since Birth"},{"key":"Why you became a Vegan","value":"Because I was born this way and continue to stay vegan because I feel it's the best thing for my body"},{"key":"Competition History","value":"Started in 1999 winning my first teenage bodybuilding show and continued with many more shows and wins"},{"key":"What drives you to compete","value":"I grew up skinny and small and having so many naysayers. I also have a passion for the human anatomy and love to witness my physique alter and transform before my eyes"},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"For me is breaking all the stereotypes and barriers that vegans can't bodybuild"},{"key":"What types of supplements if any do you use?","value":"Lots of vitamin C, B12, multi, PQQ, glutamine, bcaa's, pre workouts at times, extra calcium/potassium and colloidal silver"},{"key":"How would you describe your diet while preparing for a competition","value":"Very very strict, clean and precise"},{"key":"Favorite food in your prep diet","value":"Cashews"},{"key":"How would you describe your training for a competition","value":"Very intense"},{"key":"Favorite exercises","value":"Leg Press, Pull Ups and Pec Flys"},{"key":"How many hours a week do you spend training?","value":"12-14hrs"},{"key":"Today I am most proud of","value":"Winning the biggest show this year, Eastern USA's that was Nov.16, 2013. Furthermore, the first time competing in women's physique division and winning overall and breaking boundaries!."}],
+    "social": [{"key": "Instagram", "value": "ifbbprojehina"}]
+  },
+  {
     "name": "Jenny Harrison", 
     "sport": "bodybuilding",
     "img": "/profile-photos/plantbuilt-jennifer-harrison.png",
@@ -245,7 +253,7 @@
   {
     "name":"Sara Russert",
     "active": false,
-    "bio": [],
+    "bio": [{"key": "test", "value": "123"}],
     "sport": "bodybuilding",
     "social": [{"key": "Website", "value": ""}, {"key": "Instagram", "value": ""}, {"key": "Facebook", "value": ""}, {"key": "Youtube", "value": ""}, {"key": "Tick-Tok", "value": ""}],
     "img": "/profile-photos/plantbuilt-sara-russert.png"
@@ -282,6 +290,14 @@
     "sport": "bodybuilding",
     "bio": [{"key":"Age","value":"40"},{"key":"Hometown/city","value":"Miami, FL"},{"key":"Height","value":"5’5”"},{"key":"Weight","value":"125 lb"},{"key":"Division(s) you will compete in","value":"Figure & Physique"},{"key":"Years as a vegan","value":"14"},{"key":"Why you became a Vegan","value":"Ethical Vegan. Received a PETA magazine in the mail, the topic was about “downer cows”. I was immediately horrified & started researching — the rest is history"},{"key":"Competition history","value":["2013 INBF NaturallyFit. Figure - 3rd place", "2014 INBF NaturallyFit. Figure - 3rd place", "2014 INBF NaturallyFit. Figure - 3rd place"]},{"key":"What drives you to compete","value":"Pushing myself to be better, while showing how strong & muscular you can be on a Plants only diet."},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"Better recovery, more energy, & all the carbs"},{"key":"What types of supplements if any do you use?","value":"Protein powder (1 scoop / once per day)"},{"key":"How would you describe your diet/nutrition leading up to a show","value":"6 small meals of carbs & protein w/very little fat (my body responds better to carbs than fat)"},{"key":"Favorite foods/meals","value":"“Mindful chick’n” by Sweet Earth"},{"key":"How would you describe your training for a competition","value":"Starts out with a lot more straight lifting than more cardio as show approaches. Always mixing it up & do legs 3x/wk & shoulders 2x/wk"},{"key":"Favorite exercises","value":"Various types of lunges. Any shoulder exercise"},{"key":"How many hours a week do you spend training?","value":"7-12 depending on the week & exercises. Always one full rest day to recover."},{"key":"Today I am most proud of","value":"Being a part of this movement & bringing together the athletes from all over to showcase this lifestyle"}],
     "social": [{"key": "Instagram", "value": "@TiffanyBurich"}, {"key": "Facebook", "value": "facebook.com/noexcusestrainer"}]
+  },
+  {
+    "name": "Torre Washington",
+    "img": "/profile-photos/plantbuilt-torre-washington.png",
+    "active": false,
+    "sport": "bodybuilding",
+    "bio": [{"key":"Legacy Team Member","value":"Bio accurate in 2017"},{"key":"Division you will compete in", "value": "Bodybuilding"},{"key":"Age", "value": "38"},{"key":"Height", "value":"5’7”"},{"key":"Weight","value":"160lbs"},{"key":"City", "value": "Moody"},{"key":"Years as a vegan", "value": "15+yrs"},{"key":"Why you became a Vegan","value":"Was a “vegetarian” and decided to just take it to the next level, but I did not know that there was a name or label to eat this way. As a Rasta “Ital” = natural was a way of life, and I wanted to live it to the fullest."},{"key":"History competing","value":["2009 SNBF – 3rd", "2009 SNBF – 1st place/overall winner Pro Card", "2011 SNBF Pro show – 3rd", "2011 Musclemania Miami – 3rd", "2011 SNBF – 5th", "2012 IFPA Pro Show – 3rd", "2012 SNBF Pro Show – 2nd", "2012 Musclemania Miami – 2nd"]},{"key":"What drives you to compete","value":"The drive to compete is to be better than I was the previous year and to always improve upon any weaknesses and the enjoyment of being on stage putting on a show!, for the crowd."},{"key":"What do you see as the biggest advantages of being a vegan athlete","value":"Recovery, food variety, ease of getting sliced and diced(shredded). Breaking the norm."},{"key":"How would you describe your diet while preparing for a competition","value":"Simple it is not a “diet” it is the same way that I eat year round, and the only changes if any are that I do less beans and fruit. The key is to make it a lifestyle."},{"key":"Favorite food in your prep diet","value":"Baked Tofu"},{"key":"How would you describe your training for a competition","value":"Heavy, High volume with drop sets and supersets."},{"key":"Favorite exercises","value":"Squats to the ground, Heavy Shrugs, Bent Over Rows, and Stiff Legged Deadlifts."},{"key":"How many hours a week do you spend training?","value":"5hrs"},{"key":"Today I am most proud of","value":"Squat to the floor “Tom Platz” style with a Heavy weight."}],
+    "social": [{"key": "Website", "value": "www.torrewashington.com"}, {"key": "Instagram", "value": "@torre.washington"}, {"key": "Facebook", "value": "www.facebook.com/TorreWashingtonOfficial"}, {"key": "Twitter", "value": "@ThaVeganDread"}]
   },
   {
     "name": "Tui Van Renterghem",
