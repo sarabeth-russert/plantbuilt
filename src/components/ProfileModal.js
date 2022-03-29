@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  Modal,
   Typography,
   Card,
   CardContent,
@@ -15,31 +14,15 @@ import CloseIcon from "@mui/icons-material/Close";
 import SocialMediaIcons from "./SocialMediaIcons";
 import useWindowDimensions from "../windowDimensions";
 
-const style = {
-  position: "absolute",
-  top: "10%",
-  left: "5%",
-  width: "90%",
-  overflow: "scroll",
-  height: "90%",
-  display: "block",
-};
-
-const styleMobile = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 450,
-  height: "90%",
-  bgcolor: "background.paper",
-  border: "2px solid #000",
-  boxShadow: 24,
-  overflow: "scroll",
-  // pt: 2,
-  // px: 4,
-  // pb: 3,
-};
+// const style = {
+//   position: "absolute",
+//   top: "10%",
+//   left: "5%",
+//   width: "90%",
+//   overflow: "scroll",
+//   height: "90%",
+//   display: "block",
+// };
 
 const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
   const history = useHistory();
@@ -99,52 +82,52 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
   };
 
   return (
-    <Modal
-      open={showModal}
-      onClose={handleCloseModal}
-      aria-labelledby="modal-modal-title"
-      aria-describedby="modal-modal-description"
-      sx={width > 800 ? style : styleMobile}
-    >
-      <Card>
-        <CardHeader
-          avatar={
-            <Avatar sx={{ bgcolor: "#709425" }} aria-label="recipe">
-              <FitnessCenterIcon />
-            </Avatar>
-          }
-          action={
-            <IconButton aria-label="settings" onClick={handleCloseModal}>
-              <CloseIcon />
-            </IconButton>
-          }
-          title={selectAthlete.name}
-          subheader={selectAthlete.sport}
-        />
-        <div
-          style={{
-            display: "flex",
-            flexDirection: width > 1000 ? "row" : "column",
-          }}
-        >
-          <div>
-            <CardMedia
-              component="img"
-              sx={{ width: "450px", marginLeft: "15px" }}
-              image={selectAthlete.img}
-              alt={selectAthlete.name}
-            />
-            <CardContent>{renderAthleteSocial()}</CardContent>
-          </div>
-          <div>
-            <CardContent sx={{ paddingTop: "0px" }}>
-              {renderAthleteBio()}
-            </CardContent>
-          </div>
+    // <Modal
+    //   open={showModal}
+    //   onClose={handleCloseModal}
+    //   aria-labelledby="modal-modal-title"
+    //   aria-describedby="modal-modal-description"
+    //   sx={style}
+    // >
+    <Card>
+      <CardHeader
+        avatar={
+          <Avatar sx={{ bgcolor: "#709425" }} aria-label="recipe">
+            <FitnessCenterIcon />
+          </Avatar>
+        }
+        action={
+          <IconButton aria-label="settings" onClick={handleCloseModal}>
+            <CloseIcon />
+          </IconButton>
+        }
+        title={selectAthlete.name}
+        subheader={selectAthlete.sport}
+      />
+      <div
+        style={{
+          display: "flex",
+          flexDirection: width > 900 ? "row" : "column",
+        }}
+      >
+        <div>
+          <CardMedia
+            component="img"
+            sx={{ width: "450px", marginLeft: "15px" }}
+            image={selectAthlete.img}
+            alt={selectAthlete.name}
+          />
+          <CardContent>{renderAthleteSocial()}</CardContent>
         </div>
-        {/* </Collapse> */}
-      </Card>
-    </Modal>
+        <div>
+          <CardContent sx={{ paddingTop: "0px" }}>
+            {renderAthleteBio()}
+          </CardContent>
+        </div>
+      </div>
+      {/* </Collapse> */}
+    </Card>
+    // </Modal>
   );
 };
 
