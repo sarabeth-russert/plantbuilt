@@ -13,6 +13,7 @@ import { useHistory } from "react-router-dom";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import CloseIcon from "@mui/icons-material/Close";
 import SocialMediaIcons from "./SocialMediaIcons";
+import useWindowDimensions from "../windowDimensions";
 
 const style = {
   position: "absolute",
@@ -26,6 +27,7 @@ const style = {
 
 const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
   const history = useHistory();
+  const { width } = useWindowDimensions();
 
   const handleCloseModal = () => {
     history.goBack();
@@ -79,6 +81,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
     }
     return "Bio coming soon!";
   };
+
   return (
     <Modal
       open={showModal}
@@ -102,7 +105,12 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
           title={selectAthlete.name}
           subheader={selectAthlete.sport}
         />
-        <div style={{ display: "flex" }}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: width > 1000 ? "row" : "column",
+          }}
+        >
           <div>
             <CardMedia
               component="img"
@@ -110,11 +118,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
               image={selectAthlete.img}
               alt={selectAthlete.name}
             />
-            <CardContent>
-              {/* <Typography variant="body2" color="text.secondary"> */}
-              {renderAthleteSocial()}
-              {/* </Typography> */}
-            </CardContent>
+            <CardContent>{renderAthleteSocial()}</CardContent>
           </div>
           <div>
             <CardContent sx={{ paddingTop: "0px" }}>
