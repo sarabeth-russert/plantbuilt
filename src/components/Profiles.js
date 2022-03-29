@@ -50,54 +50,59 @@ const Profiles = () => {
     if (hash !== history.location.pathname) history.push(hash);
   };
   return (
-    <Box
-      sx={{
-        dislpay: "flex",
-        justifyContent: "center",
-        marginTop: "20px",
-        marginBottom: "20px",
-        alignItems: "center",
-      }}
-    >
-      <ImageList
-        sx={{ width: width * 0.8, margin: "auto" }}
-        cols={width > 800 ? 4 : width > 650 ? 3 : 1}
-        rowHeight={
-          width > 800
-            ? (width * 0.8) / 4
-            : width > 650
-            ? (width * 0.8) / 3
-            : width * 0.8
-        }
-      >
-        {athletes.map((athlete) => (
-          <ImageListItem
-            key={athlete.name}
-            onClick={() => handleClick(athlete)}
+    <>
+      {!athlete ? (
+        <Box
+          sx={{
+            dislpay: "flex",
+            justifyContent: "center",
+            marginTop: "20px",
+            marginBottom: "20px",
+            alignItems: "center",
+          }}
+        >
+          <ImageList
+            sx={{ width: width * 0.8, margin: "auto" }}
+            cols={width > 800 ? 4 : width > 650 ? 3 : 1}
+            rowHeight={
+              width > 800
+                ? (width * 0.8) / 4
+                : width > 650
+                ? (width * 0.8) / 3
+                : width * 0.8
+            }
           >
-            <img
-              src={`${athlete.img.substring(
-                0,
-                athlete.img.length - 4
-              )}-square.png`}
-              srcSet={`${athlete.img.substring(
-                0,
-                athlete.img.length - 4
-              )}-square.png`}
-              alt={athlete.name}
-              loading="lazy"
-              id={athlete.name}
-            />
-            <ImageListItemBar title={athlete.name} />
-          </ImageListItem>
-        ))}
-      </ImageList>
-      <ProfileModal
-        showModal={showModal}
-        setShowModal={setShowModal}
-        selectAthlete={selectAthlete}
-      />
-    </Box>
+            {athletes.map((athlete) => (
+              <ImageListItem
+                key={athlete.name}
+                onClick={() => handleClick(athlete)}
+              >
+                <img
+                  src={`${athlete.img.substring(
+                    0,
+                    athlete.img.length - 4
+                  )}-square.png`}
+                  srcSet={`${athlete.img.substring(
+                    0,
+                    athlete.img.length - 4
+                  )}-square.png`}
+                  alt={athlete.name}
+                  loading="lazy"
+                  id={athlete.name}
+                />
+                <ImageListItemBar title={athlete.name} />
+              </ImageListItem>
+            ))}
+          </ImageList>
+        </Box>
+      ) : (
+        <ProfileModal
+          showModal={showModal}
+          setShowModal={setShowModal}
+          selectAthlete={selectAthlete}
+        />
+      )}
+    </>
   );
 };
 
