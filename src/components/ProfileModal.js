@@ -107,7 +107,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
       <div
         style={{
           display: "flex",
-          flexDirection: width > 1000 ? "row" : "column",
+          flexDirection: width > 900 ? "row" : "column",
         }}
       >
         <div>
