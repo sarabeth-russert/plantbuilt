@@ -62,7 +62,12 @@ const MainCard = ({ card }) => {
             {card.text}
           </Typography>
           <CardActions>
-            <Button size="small" target="_blank" href={card.link}>
+            <Button
+              size="small"
+              target="_blank"
+              href={card.link}
+              sx={{ color: "#709425" }}
+            >
               Learn More
             </Button>
           </CardActions>
