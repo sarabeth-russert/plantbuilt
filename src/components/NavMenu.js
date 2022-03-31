@@ -16,6 +16,8 @@ const linkMap = {
   "Legacy Athletes": "/profiles/former-team",
   About: "/about",
   Contact: "/contact",
+  Athletes: "/profiles",
+  "2017 Results": "/results-2017",
 };
 
 const useStyles = makeStyles({

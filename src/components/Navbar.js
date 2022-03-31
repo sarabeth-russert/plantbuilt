@@ -79,7 +79,7 @@ export default function ButtonAppBar() {
             >
               <NavMenu
                 item={"open"}
-                menuItems={["Athletes", "Contact", "About"]}
+                menuItems={["Athletes", "2017 Results", "Contact", "About"]}
                 icon={<MenuIcon />}
               />
               <Link to="/" style={{ width: "250px" }}>

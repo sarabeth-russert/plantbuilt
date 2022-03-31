@@ -113,7 +113,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
         <div>
           <CardMedia
             component="img"
-            sx={{ width: "450px", marginLeft: "15px" }}
+            sx={{ width: width < 480 ? "400px" : "450px", marginLeft: "15px" }}
             image={selectAthlete.img}
             alt={selectAthlete.name}
           />
