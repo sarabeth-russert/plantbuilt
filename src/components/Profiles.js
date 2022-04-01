@@ -90,7 +90,10 @@ const Profiles = () => {
                   loading="lazy"
                   id={athlete.name}
                 />
-                <ImageListItemBar title={athlete.name} />
+                <ImageListItemBar
+                  title={athlete.name}
+                  subtitle={athlete.captain ? "Team Captain" : ""}
+                />
               </ImageListItem>
             ))}
           </ImageList>
