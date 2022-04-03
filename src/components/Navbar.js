@@ -51,20 +51,24 @@ export default function ButtonAppBar() {
                 ]}
                 icon={<KeyboardArrowDownIcon />}
               />
-              <MenuItem className={classes.links}>
-                <Link to="/results-2017" className={classes.link}>
+              <Link to="/results-2017" className={classes.link}>
+                <MenuItem className={classes.links}>
                   <Typography className={classes.text}>2017 Results</Typography>
-                </Link>
-              </MenuItem>
+                </MenuItem>
+              </Link>
               <Link to="/">
                 <img src={logo} alt="plantbuilt" className={classes.logo} />
               </Link>
-              <MenuItem className={classes.links}>
-                <Typography>About Us</Typography>
-              </MenuItem>
-              <MenuItem className={classes.links}>
-                <Typography>Contact</Typography>
-              </MenuItem>
+              <Link to="/about" className={classes.link}>
+                <MenuItem className={classes.links}>
+                  <Typography className={classes.text}>About Us</Typography>
+                </MenuItem>
+              </Link>
+              <Link to="/contact" className={classes.link}>
+                <MenuItem className={classes.links}>
+                  <Typography className={classes.text}>Contact</Typography>
+                </MenuItem>
+              </Link>
             </Toolbar>
           </AppBar>
         </Box>
