@@ -42,7 +42,7 @@ const About = () => {
           of cruelty free strength. 2022 will be the fourth time the team sets
           out to change hearts and minds, with some familar faces and some new
           additions to the family. Help us celebrate our 10th year of activism
-          and keep checking in for updates about the team and the compitition.
+          and keep checking in for updates about the team and the competition.
         </Typography>
       </CardContent>
     </Card>
