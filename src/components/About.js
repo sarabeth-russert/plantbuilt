@@ -1,12 +1,26 @@
-import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import React from "react";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
+import useWindowDimensions from "../windowDimensions";
 
 const About = () => {
+  const { width } = useWindowDimensions();
   return (
-    <Card sx={{ display: "flex", margin: "20px", padding: "20px" }}>
+    <Card
+      sx={{
+        display: "flex",
+        margin: "20px",
+        padding: "20px",
+        flexDirection: width < 900 ? "column" : "row",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <CardMedia
         component="img"
-        sx={{ width: "25%" }}
+        sx={{
+          width: width > 900 ? "33%" : "300px",
+          height: width > 900 ? "33%" : "300px",
+        }}
         image={"plantbuilt-origin.png"}
         alt={"2012 portland vegfest"}
       />
