@@ -5,7 +5,7 @@ const ComingSoon = () => {
   return (
     <div style={{ marginLeft: "10px" }}>
       <p>
-        ComingSoon... for information on how to become involved in sponsoring
+        Coming soon... for information on how to become involved in sponsoring
         the 2022 team contact us.
       </p>
       <MailTo
