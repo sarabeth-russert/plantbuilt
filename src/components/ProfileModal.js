@@ -24,7 +24,7 @@ import useWindowDimensions from "../windowDimensions";
 //   display: "block",
 // };
 
-const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
+const ProfileModal = ({ setShowModal, sport, selectAthlete }) => {
   const history = useHistory();
   const { width } = useWindowDimensions();
 
@@ -102,7 +102,7 @@ const ProfileModal = ({ setShowModal, showModal, selectAthlete }) => {
           </IconButton>
         }
         title={selectAthlete.name}
-        subheader={selectAthlete.sport}
+        subheader={sport}
       />
       <div
         style={{
