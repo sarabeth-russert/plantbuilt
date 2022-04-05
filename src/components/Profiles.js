@@ -7,6 +7,14 @@ import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import useWindowDimensions from "../windowDimensions";
 
+const sportMap = {
+  "kettle-bell-sport": "Kettlebell Sport",
+  bodybuilding: "Bodybuilding",
+  cf: "CrossFit",
+  "olympic-weightlifting": "Olympic Weightlifting",
+  powerlifting: "Powerlifting",
+};
+
 const Profiles = () => {
   // const classes = useStyles();
   const [showModal, setShowModal] = useState(false);
@@ -92,7 +100,15 @@ const Profiles = () => {
                 />
                 <ImageListItemBar
                   title={athlete.name}
-                  subtitle={athlete.captain ? "Team Captain" : ""}
+                  subtitle={
+                    width < 650
+                      ? athlete.captain
+                        ? `Team Captain - ${sportMap[athlete.sport]}`
+                        : sportMap[athlete.sport]
+                      : athlete.captain
+                      ? "Team Captain"
+                      : ""
+                  }
                 />
               </ImageListItem>
             ))}
@@ -103,6 +119,7 @@ const Profiles = () => {
           showModal={showModal}
           setShowModal={setShowModal}
           selectAthlete={selectAthlete}
+          sport={sportMap[selectAthlete.sport]}
         />
       )}
     </>
