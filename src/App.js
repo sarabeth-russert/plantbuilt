@@ -13,6 +13,7 @@ import Contact from "./components/Contact.js";
 // import theme from "./theme.js"
 
 import { createTheme } from "@mui/material/styles";
+import CorporateSponsors from "./components/CorporateSponsors.js";
 // import { green, purple } from '@mui/material/colors';
 
 const theme = createTheme({
@@ -40,7 +41,10 @@ const App = () => {
           <Route path="/profiles" component={Profiles} />
           <Route path="/results-2017" component={Results2017} />
           <Route path="/about" component={About} />
-          <Route path="/sponsors/corporate-sponsors" component={ComingSoon} />
+          <Route
+            path="/sponsors/corporate-sponsors"
+            component={CorporateSponsors}
+          />
           <Route path="/sponsors/individual-sponsors" component={ComingSoon} />
           <Route path="/contact" component={Contact} />
           <Route path="/">
