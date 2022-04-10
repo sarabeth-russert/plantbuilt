@@ -81,8 +81,8 @@ const itemData = [
     description:
       "Your daily zero sugar hydrating electrolyte drink, water enhancer and all around refresher!",
     link: "https://www.ultimareplenisher.com/",
-    rows: 2,
-    cols: 2,
+    rows: 1,
+    cols: 1,
   },
   {
     img: "/Unisoy-wholesome_500x.webp",
@@ -90,8 +90,8 @@ const itemData = [
     description:
       "Choose something delicious and amazing Unisoy Vegan Jerky flavors. No meat, no bull, no junk...",
     link: "https://unisoyjerky.com/",
-    rows: 2,
-    cols: 2,
+    rows: 1,
+    cols: 1,
   },
   {
     img: "/Zhou__Primary.png",
