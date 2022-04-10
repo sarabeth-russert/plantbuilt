@@ -93,4 +93,13 @@ const itemData = [
     rows: 2,
     cols: 2,
   },
+  {
+    img: "/Zhou__Primary.png",
+    title: "Zhou Nutrition",
+    description:
+      "By combining the best of nature’s nutrients with science-backed formulas, we create clean, effective supplements tailored to your unique needs.",
+    link: "https://www.zhounutrition.com/",
+    rows: 2,
+    cols: 2,
+  },
 ];
