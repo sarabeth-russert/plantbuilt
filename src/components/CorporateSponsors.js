@@ -62,6 +62,13 @@ export default function CorporateSponsors() {
 
 const itemData = [
   {
+    img: "/vegan-proteins.png",
+    title: "Vegan Proteins",
+    description: "We coach you to build a strong, lean body on plants!",
+    link: "https://www.veganproteins.com/",
+    level: size.large,
+  },
+  {
     img: "/Zhou__Primary.png",
     title: "Zhou Nutrition",
     description:
