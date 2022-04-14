@@ -59,16 +59,24 @@ export default function ButtonAppBar() {
               <Link to="/">
                 <img src={logo} alt="plantbuilt" className={classes.logo} />
               </Link>
-              <Link to="/about" className={classes.link}>
+              <NavMenu
+                className={classes.links}
+                title={"About Us"}
+                menuItems={["About", "Contact"]}
+                icon={<KeyboardArrowDownIcon />}
+              />
+              <a
+                className={classes.link}
+                href="https://www.veganproteins.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <MenuItem className={classes.links}>
-                  <Typography className={classes.text}>About Us</Typography>
+                  <Typography className={classes.text}>
+                    Vegan Proteins
+                  </Typography>
                 </MenuItem>
-              </Link>
-              <Link to="/contact" className={classes.link}>
-                <MenuItem className={classes.links}>
-                  <Typography className={classes.text}>Contact</Typography>
-                </MenuItem>
-              </Link>
+              </a>
             </Toolbar>
           </AppBar>
         </Box>
