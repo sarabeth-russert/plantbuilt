@@ -85,7 +85,7 @@ const itemData = [
     level: size.medium,
   },
   {
-    img: "/Unisoy-wholesome_500x.webp",
+    img: "/unisoy_logo.png",
     title: "Unisoy",
     description:
       "Choose something delicious and amazing Unisoy Vegan Jerky flavors. No meat, no bull, no junk...",
