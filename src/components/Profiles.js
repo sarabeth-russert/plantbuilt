@@ -45,7 +45,8 @@ const Profiles = () => {
   useEffect(() => {
     if (athlete) {
       const selectedAthlete = athletesData.filter(
-        (anAthlete) => anAthlete.name === athlete.split("-").join(" ")
+        (anAthlete) =>
+          anAthlete.name.toLowerCase() === athlete.split("-").join(" ")
       );
       setSelectAthlete(selectedAthlete[0]);
       setShowModal(true);
@@ -54,7 +55,7 @@ const Profiles = () => {
 
   const handleClick = (athlete) => {
     const urlName = athlete.name.split(" ").join("-");
-    let hash = `/profiles/${athlete.sport}/${urlName}`;
+    let hash = `/profiles/${athlete.sport}/${urlName.toLowerCase()}`;
     if (hash !== history.location.pathname) history.push(hash);
   };
   return (
